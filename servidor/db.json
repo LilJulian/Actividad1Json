@@ -1,27 +1,77 @@
 {
-  "posts": [
+  "players": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "nombre": "Lionel Messi",
+      "edad": 36,
+      "nacionalidad": "Argentina",
+      "equipo": "Inter Miami",
+      "posición": "Delantero"
     },
     {
-      "id": 2
+      "id": 2,
+      "nombre": "Cristiano Ronaldo",
+      "edad": 39,
+      "nacionalidad": "Portugal",
+      "equipo": "Al-Nassr",
+      "posición": "Delantero"
     },
     {
-      "title": "Rojo",
-      "author": "Julian",
-      "id": 3
+      "id": 3,
+      "nombre": "Kevin De Bruyne",
+      "edad": 32,
+      "nacionalidad": "Bélgica",
+      "equipo": "Manchester City",
+      "posición": "Centrocampista"
     }
   ],
-  "comments": [
+  "teams": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "nombre": "Inter Miami",
+      "país": "Estados Unidos",
+      "liga": "MLS"
+    },
+    {
+      "id": 2,
+      "nombre": "Al-Nassr",
+      "país": "Arabia Saudita",
+      "liga": "Saudi Pro League"
+    },
+    {
+      "id": 3,
+      "nombre": "Manchester City",
+      "país": "Inglaterra",
+      "liga": "Premier League"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "leagues": [
+    {"id": 1, "nombre": "Premier League"},
+    {"id": 2, "nombre": "LaLiga"},
+    {"id": 3, "nombre": "Serie A"},
+    {"id": 4, "nombre": "Bundesliga"},
+    {"id": 5, "nombre": "Ligue 1"},
+    {"id": 6, "nombre": "MLS"},
+    {"id": 7, "nombre": "Saudi Pro League"}
+  ],
+  "stadiums": [
+    {
+      "id": 1,
+      "nombre": "DRV PNK Stadium",
+      "ciudad": "Fort Lauderdale",
+      "capacidad": 18000
+    },
+    {
+      "id": 2,
+      "nombre": "Etihad Stadium",
+      "ciudad": "Manchester",
+      "capacidad": 53400
+    },
+    {
+      "id": 3,
+      "nombre": "Mrsool Park",
+      "ciudad": "Riyadh",
+      "capacidad": 25000
+    }
+  ]
 }
